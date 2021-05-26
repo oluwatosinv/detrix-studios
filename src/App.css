@@ -142,6 +142,10 @@ a.contact {
     padding-bottom: 16px;
 }
 
+.lowerVideoGrid{
+    grid-template-columns: repeat(3, 1fr);
+}
+
 
 @media (min-width:900px)  { 
     nav {
@@ -206,6 +210,8 @@ a.contact {
     a.nav-link.Ripple-parent.navAdjust.active {
         padding: 0;
     }
+
+    
 
 }
 
@@ -286,6 +292,13 @@ a.contact {
 
     .logo{
         margin: 0;
+    }
+
+    .lowerVideoGrid{
+        grid-template-columns:  1fr;
+    }
+    a.ftIcon {
+        color: black;
     }
 }
 

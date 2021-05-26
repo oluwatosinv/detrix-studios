@@ -8,17 +8,17 @@ const Footer = () => {
             <div>
                 <p>CONNECT WITH US</p>
                 <div className='footer-icon'>
-                    <a>
+                    <a href='https://www.instagram.com/DETRIXSTUDIOS/' target='blank' className='ftIcon'>
                         <MDBIcon fab icon="instagram" />
                     </a>
-                    <a>
+                    <a href='https://web.facebook.com/detrixstudios' target='blank' className='ftIcon'>
                         <MDBIcon fab icon="facebook-square"  />
                     </a>
-                    <a>
+                    <a href='https://www.youtube.com/channel/UCAX4PEep5NsHNtrVENvlN0Q' target='blank' className='ftIcon'>
                         <MDBIcon fab icon="youtube" />
                     </a>
-                    <a>
-                        <MDBIcon fab icon="linkedin" />
+                    <a href='https://www.linkedin.com/company/detrix-studios/' target='blank' className='ftIcon'>
+                        <MDBIcon fab icon="linkedin"  />
                     </a>
                 </div>
             </div>

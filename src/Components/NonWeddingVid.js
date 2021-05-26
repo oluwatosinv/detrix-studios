@@ -16,12 +16,18 @@ const Corporate = () => {
             text: "Documentary",
             nickName: "real estate Videos",
             imgUrl: "https://www.youtube.com/embed/IlPvI4hAxe8",
+        },
+        {
+            name: 3,
+            text: "Hampton Court",
+            nickName: "Videos",
+            imgUrl: "https://www.youtube.com/embed/fV35WK4clZU",
         }
     ];
     return (
         <MDBContainer>
             <h1 className='ImgGridTittle'>Coporate Videos</h1>
-                <div className='VideoGrid'>
+                <div className='VideoGrid lowerVideoGrid'>
                     {GalleryImgs.map((GalleryImg, index) => (
                             <div key={GalleryImg.name + index} className='video-margin'>
                                 <iframe width="100%" height="100%"
