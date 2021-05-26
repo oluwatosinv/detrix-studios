@@ -8,13 +8,7 @@ body {
     font-family: 'Cormorant Garamond', serif;
 }
 
-a.nav-link.Ripple-parent.navAdjust{
-    padding: 0;
-}
 
-a.nav-link.Ripple-parent.navAdjust.active {
-    padding: 0;
-}
 
 .logo{
     width: 80px;
@@ -199,6 +193,14 @@ a.contact {
         margin-top: 8px;
     }
 
+    a.nav-link.Ripple-parent.navAdjust{
+        padding: 0;
+    }
+    
+    a.nav-link.Ripple-parent.navAdjust.active {
+        padding: 0;
+    }
+
 }
 
 
@@ -334,5 +336,13 @@ a.contact {
     }
     .video-margin{
         margin-bottom: 3em;
+    }
+
+    a.nav-link.Ripple-parent.navAdjust{
+        padding: 0;
+    }
+    
+    a.nav-link.Ripple-parent.navAdjust.active {
+        padding: 0;
     }
 }
