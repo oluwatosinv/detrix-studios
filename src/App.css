@@ -146,6 +146,10 @@ a.contact {
     grid-template-columns: repeat(3, 1fr);
 }
 
+a.ftIcon {
+    color: black;
+}
+
 
 @media (min-width:900px)  { 
     nav {
@@ -297,9 +301,7 @@ a.contact {
     .lowerVideoGrid{
         grid-template-columns:  1fr;
     }
-    a.ftIcon {
-        color: black;
-    }
+   
 }
 
 @media screen and (max-width: 900px) and (min-width: 501px){
