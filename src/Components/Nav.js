@@ -39,10 +39,12 @@ render() {
                   <span className="mr-2">Videos</span>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
-                  <MDBNavLink to="/WeddingVideos">
+                  <MDBNavLink to="/WeddingVideos" className='navAdjust'>
                     <MDBDropdownItem href="/WeddingVideos">Wedding Videos</MDBDropdownItem>
                   </MDBNavLink>
-                  <MDBDropdownItem href="/NonweddingVideos">Non Wedding Videos</MDBDropdownItem>
+                  <MDBNavLink to="/NonweddingVideos" className='navAdjust'>
+                    <MDBDropdownItem href="/NonweddingVideos">Non Wedding Videos</MDBDropdownItem>
+                  </MDBNavLink>
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavItem>
@@ -52,8 +54,12 @@ render() {
                   <span className="mr-2">Photos</span>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
-                  <MDBDropdownItem href="/WeddingPhotos">Wedding Photos</MDBDropdownItem>
-                  <MDBDropdownItem href="/NonWeddingPhotos">Non Wedding Photos</MDBDropdownItem>
+                  <MDBNavLink to="/WeddingPhotos" className='navAdjust'>
+                    <MDBDropdownItem href="/WeddingPhotos">Wedding Photos</MDBDropdownItem>
+                  </MDBNavLink>
+                  <MDBNavLink to="/NonweddingPhotos" className='navAdjust'>
+                    <MDBDropdownItem href="/NonweddingPhotos">Non Wedding Photos</MDBDropdownItem>
+                  </MDBNavLink>
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavItem>
