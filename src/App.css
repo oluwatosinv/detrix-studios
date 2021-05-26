@@ -36,7 +36,7 @@ p.carousel-text-inner {
     font-size: 21px;
     color: #84847c;
     line-height: 1.285714285714286em;
-    padding: 2em;
+    padding: 1em;
     padding-bottom: 1em;
     margin-bottom: 0;
 }
@@ -136,6 +136,12 @@ a.contact {
 .footer-icon {
     max-width: 200px;
 }
+
+.testimonials {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
 
 @media (min-width:900px)  { 
     nav {
