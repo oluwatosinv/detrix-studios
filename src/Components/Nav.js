@@ -39,7 +39,7 @@ render() {
                   <span className="mr-2">Videos</span>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
-                  <MDBDropdownItem href="/WeddingVideos">Wedding Videos</MDBDropdownItem>
+                  <MDBDropdownItem to="/WeddingVideos">Wedding Videos</MDBDropdownItem>
                   <MDBDropdownItem href="/NonweddingVideos">Non Wedding Videos</MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>
