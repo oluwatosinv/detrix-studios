@@ -19,8 +19,6 @@ a.nav-link.Ripple-parent.navAdjust.active {
 .logo{
     width: 80px;
     height: auto;
-    margin-bottom: 12px;
-    margin-top: 8px;
 }
 
 .VideoGrid {
@@ -196,7 +194,10 @@ a.contact {
     .WeddingVideoGrid {
         grid-template-columns: 1fr 1fr 1fr;
     }
-    
+    .logo{
+        margin-bottom: 12px;
+        margin-top: 8px;
+    }
 
 }
 
@@ -272,6 +273,14 @@ a.contact {
     }
     .video-margin {
         margin-bottom: 6em;
+    }
+
+    a.nav-link.Ripple-parent {
+        padding: 0;
+    }
+
+    .logo{
+        margin: 0;
     }
 }
 
