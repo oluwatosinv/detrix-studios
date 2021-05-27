@@ -45,7 +45,26 @@ h1.galleryTittle {
     text-align: center;
     padding: 1em;
 }
-
+.contact-img{
+    background-image: url('https://res.cloudinary.com/tosin/image/upload/v1622072005/detrix/pexels-derice-jason-fahnkow-1595241.jpg');
+    background-size: cover;
+    min-height: 40vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.centering{
+    justify-content: center;
+}
+.contact-tittle-text{
+    text-align: center;
+    color: white;
+    padding-top: 1em;
+    font-size: 64px;
+    font-weight: 700;
+}
 
 .me{
     background-image: url('https://res.cloudinary.com/tosin/image/upload/v1621806614/detrix/_P6A2009.jpg;');
