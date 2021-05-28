@@ -1,385 +1,397 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,700&display=swap");
 
-html, body {
-    overflow-x: hidden;
+html,
+body {
+  overflow-x: hidden;
 }
 body {
-    position: relative;
-    font-family: 'Cormorant Garamond', serif;
+  position: relative;
+  font-family: "Cormorant Garamond", serif;
 }
 
-
-
-.logo{
-    width: 80px;
-    height: auto;
+.logo {
+  width: 80px;
+  height: auto;
 }
 
 .VideoGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
 }
-.carousel-text{
-    text-align: center;
+.carousel-text {
+  text-align: center;
 }
 
-.galleyLolade{
-    padding-top: 2em;
+.galleyLolade {
+  padding-top: 2em;
 }
 .carousel {
-    margin-top: 3em;
+  margin-top: 3em;
 }
 
 p.carousel-text-inner {
-    font-style: italic;
-    font-size: 21px;
-    color: #84847c;
-    line-height: 1.285714285714286em;
-    padding: 1em;
-    padding-bottom: 1em;
-    margin-bottom: 0;
+  font-style: italic;
+  font-size: 21px;
+  color: #84847c;
+  line-height: 1.285714285714286em;
+  padding: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 0;
 }
 
 h1.galleryTittle {
-    text-align: center;
-    padding: 1em;
-}
-.contact-img{
-    background-image: url('https://res.cloudinary.com/tosin/image/upload/v1622072005/detrix/pexels-derice-jason-fahnkow-1595241.jpg');
-    background-size: cover;
-    min-height: 40vh;
-    width: auto;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    margin-top: 3em;
-    margin-bottom: 3em;
-}
-.centering{
-    justify-content: center;
-}
-.contact-tittle-text{
-    text-align: center;
-    color: white;
-    padding-top: 1em;
-    font-size: 64px;
-    font-weight: 700;
+  text-align: center;
+  padding: 1em;
 }
 
-.me{
-    background-image: url('https://res.cloudinary.com/tosin/image/upload/v1621806614/detrix/_P6A2009.jpg;');
-    background-size: cover;
-    min-height: 90vh;
-    width: auto;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+.contact-img {
+  background-image: url("https://res.cloudinary.com/tosin/image/upload/v1622149280/detrix/sharegrid-N10auyEVst8-unsplash-scaled.jpg");
+  background-size: cover;
+  min-height: 40vh;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 
-.muse1{
-    background-image: url('https://res.cloudinary.com/tosin/image/upload/v1621792591/detrix/P1120768.jpg');
-    background-size: cover;
-    min-height: 90vh;
-    width: auto;
-    background-repeat: no-repeat;
-    background-position: 30% 30%;
+.select-customize{
+  border: none;
+  border-bottom: 1px solid #ced4da;
+}
+
+.form-text-bottom {
+  text-align: center;
+  padding-bottom: 16px;
+  padding-top: 32px;
+}
+
+.icon-forms{
+  font-size: 1.75rem
+}
+
+.form-select{
+  display: flex;
+}
+
+.centering {
+  justify-content: center;
+}
+.contact-tittle-text {
+  text-align: center;
+  color: white;
+  padding-top: 1em;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.me {
+  background-image: url("https://res.cloudinary.com/tosin/image/upload/v1621806614/detrix/_P6A2009.jpg;");
+  background-size: cover;
+  min-height: 90vh;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.muse1 {
+  background-image: url("https://res.cloudinary.com/tosin/image/upload/v1621792591/detrix/P1120768.jpg");
+  background-size: cover;
+  min-height: 90vh;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: 30% 30%;
 }
 
 .loladeCrew {
-    background-image: url('https://res.cloudinary.com/tosin/image/upload/v1621806254/detrix/IMG_7799_2.jpg');
-    background-size: cover;
-    min-height: 90vh;
-    width: auto;
-    background-repeat: no-repeat;
-    background-position: 30% 30%;
+  background-image: url("https://res.cloudinary.com/tosin/image/upload/v1621806254/detrix/IMG_7799_2.jpg");
+  background-size: cover;
+  min-height: 90vh;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: 30% 30%;
 }
 
-.muse2{
-    background-image: url('https://res.cloudinary.com/tosin/image/upload/v1621806403/detrix/P1130201.jpg');
-    background-size: cover;
-    min-height: 90vh;
-    width: auto;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+.muse2 {
+  background-image: url("https://res.cloudinary.com/tosin/image/upload/v1621806403/detrix/P1130201.jpg");
+  background-size: cover;
+  min-height: 90vh;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
-.chichiCrew{
-    background-image: url('https://res.cloudinary.com/tosin/image/upload/v1621804411/detrix/IMG_5801_1.jpg');
-    background-size: cover;
-    min-height: 90vh;
-    width: auto;
-    background-repeat: no-repeat;
-    background-position: 30% 30%;
+.chichiCrew {
+  background-image: url("https://res.cloudinary.com/tosin/image/upload/v1621804411/detrix/IMG_5801_1.jpg");
+  background-size: cover;
+  min-height: 90vh;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: 30% 30%;
 }
 
-.muse2b{
-    background-image: url('https://res.cloudinary.com/tosin/image/upload/v1621792592/detrix/P1130106.jpg');
-    background-size: cover;
-    min-height: 90vh;
-    width: auto;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+.muse2b {
+  background-image: url("https://res.cloudinary.com/tosin/image/upload/v1621792592/detrix/P1130106.jpg");
+  background-size: cover;
+  min-height: 90vh;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 img.gridImg {
-    width: 100%;
+  width: 100%;
 }
 
 .imageGrid {
-    display: grid;
-    grid-template-columns: 1fr;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 h3.gridText {
-    text-align: center;
-    padding-top: 13px;
-    padding-bottom: 20px;
-    color: black;
+  text-align: center;
+  padding-top: 13px;
+  padding-bottom: 20px;
+  color: black;
 }
 
 h1.ImgGridTittle {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
 }
-  
+
 .footer-icon {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    text-align: start;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: start;
 }
 
 a.contact {
-    color: black;
+  color: black;
 }
 
 .footer-icon {
-    max-width: 200px;
+  max-width: 200px;
 }
 
 .testimonials {
-    padding-top: 16px;
-    padding-bottom: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
-.lowerVideoGrid{
-    grid-template-columns: repeat(3, 1fr);
+.lowerVideoGrid {
+  grid-template-columns: repeat(3, 1fr);
 }
 
 a.ftIcon {
-    color: black;
+  color: black;
 }
 
+@media (min-width: 900px) {
+  nav {
+    max-height: 60px;
+  }
+  nav.navbar-dark.indigo.navbar.navbar-expand-md {
+    padding-left: 40px;
+    padding-right: 60px;
+  }
+  a.nav-link.Ripple-parent.active {
+    padding-left: 26px;
+    padding-right: 26px;
+  }
 
-@media (min-width:900px)  { 
-    nav {
-        max-height: 60px;
-    }
-    nav.navbar-dark.indigo.navbar.navbar-expand-md {
-        padding-left: 40px;
-        padding-right: 60px;
-    }
-    a.nav-link.Ripple-parent.active {
-        padding-left: 26px;
-        padding-right: 26px;
-    }
+  nav.navbar-dark.indigo.navbar.navbar-expand-md {
+    background-color: white !important;
+  }
 
-    nav.navbar-dark.indigo.navbar.navbar-expand-md {
-        background-color: white !important;
-    }
+  a.nav-link {
+    color: black !important;
+  }
 
-    a.nav-link {
-        color: black !important;
-    }
+  .carousel {
+    margin-top: 3em;
+  }
 
-    .carousel {
-        margin-top: 3em;
-    }
+  .imageGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+  }
+  nav.navbar-dark.indigo.navbar.navbar-expand-md {
+    padding-right: 5em;
+  }
 
-    .imageGrid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 16px;
-    }
-    nav.navbar-dark.indigo.navbar.navbar-expand-md {
-        padding-right: 5em;
-    }
-    
-    .navbar-brand {
-        padding-left: 12px;
-    }
+  .navbar-brand {
+    padding-left: 12px;
+  }
 
-    .container.footer {
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
-        padding: 3em;
-        padding-left: 1em;
-    }
+  .container.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3em;
+    padding-left: 1em;
+  }
 
-    .video-margin{
-        margin-bottom: 4em;
-    }
-    .WeddingVideoGrid {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .logo{
-        margin-bottom: 12px;
-        margin-top: 8px;
-    }
+  .video-margin {
+    margin-bottom: 4em;
+  }
+  .WeddingVideoGrid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .logo {
+    margin-bottom: 12px;
+    margin-top: 8px;
+  }
 
-    a.nav-link.Ripple-parent.navAdjust{
-        padding: 0;
-    }
-    
-    a.nav-link.Ripple-parent.navAdjust.active {
-        padding: 0;
-    }
+  a.nav-link.Ripple-parent.navAdjust {
+    padding: 0;
+  }
 
-    
-
+  a.nav-link.Ripple-parent.navAdjust.active {
+    padding: 0;
+  }
 }
 
+@media (max-width: 500px) {
+  nav.navbar-dark.indigo.navbar.navbar-expand-md {
+    background-color: black !important;
+  }
 
+  .navbar.navbar-dark .breadcrumb .nav-item .nav-link,
+  .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: white;
+  }
 
-@media (max-width:500px)  { 
+  .loladeCrew {
+    background-size: cover;
+    background-position: 60% 60%;
+  }
 
-    nav.navbar-dark.indigo.navbar.navbar-expand-md {
-        background-color: black !important;
-    }
+  .chichiCrew {
+    background-position: 60% 60%;
+  }
 
-    .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
-        color: white;
-    }
+  .muse2b {
+    background-position: 60% 60%;
+  }
+  a.nav-link {
+    color: black !important;
+  }
 
-    .loladeCrew{
-        background-size: cover;
-        background-position: 60% 60%;
-    }
-    
-    .chichiCrew{
-        background-position: 60% 60%;
-    }
+  nav.navbar-dark.indigo.navbar.navbar-expand-md {
+    background-color: white !important;
+  }
 
-    .muse2b{
-        background-position: 60% 60%;
-    }
-    a.nav-link {
-        color: black !important;
-    }
+  .navbar.navbar-dark .navbar-toggler-icon {
+    cursor: pointer;
+    background-image: url("https://mdbcdn.b-cdn.net/img/svg/hamburger6.svg?color=000");
+  }
 
-    nav.navbar-dark.indigo.navbar.navbar-expand-md {
-        background-color: white !important;
-    }
+  .muse1 {
+    min-height: 50vh;
+  }
+  .muse2b {
+    min-height: 50vh;
+  }
+  .muse2 {
+    min-height: 50vh;
+  }
+  .loladeCrew {
+    min-height: 50vh;
+  }
+  .chichiCrew {
+    min-height: 50vh;
+  }
+  .me {
+    min-height: 50vh;
+  }
+  li.nav-item {
+    padding-left: 12px;
+  }
 
-    .navbar.navbar-dark .navbar-toggler-icon {
-        cursor: pointer;
-        background-image: url('https://mdbcdn.b-cdn.net/img/svg/hamburger6.svg?color=000');
-    }
-    
-    .muse1{
-        min-height: 50vh;
-    }
-    .muse2b{
-        min-height: 50vh;
-    }
-    .muse2{
-        min-height: 50vh;
-    }
-    .loladeCrew{
-        min-height: 50vh;
-    }
-    .chichiCrew{
-        min-height: 50vh;
-    }
-    .me{
-        min-height: 50vh;
-    }
-    li.nav-item {
-        padding-left: 12px;
-    }
+  .container.footer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 
-    .container.footer {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
+  .inner2 {
+    padding-top: 2em;
+  }
+  .VideoGrid {
+    grid-template-columns: 1fr;
+  }
+  .video-margin {
+    margin-bottom: 6em;
+  }
 
-    .inner2{
-        padding-top: 2em;
-    }
-    .VideoGrid {
-        grid-template-columns: 1fr ;
-    }
-    .video-margin {
-        margin-bottom: 6em;
-    }
+  .logo {
+    margin: 0;
+  }
 
-
-    .logo{
-        margin: 0;
-    }
-
-    .lowerVideoGrid{
-        grid-template-columns:  1fr;
-    }
-   
+  .lowerVideoGrid {
+    grid-template-columns: 1fr;
+  }
 }
 
-@media screen and (max-width: 900px) and (min-width: 501px){
-    a.nav-link {
-        color: black !important;
-    }
+@media screen and (max-width: 900px) and (min-width: 501px) {
+  a.nav-link {
+    color: black !important;
+  }
 
-    nav.navbar-dark.indigo.navbar.navbar-expand-md {
-        background-color: white !important;
-    }
-    .muse1{
-        min-height: 70vh;
-    }
-    .muse2b{
-        min-height: 70vh;
-    }
-    .muse2{
-        min-height: 70vh;
-    }
-    .loladeCrew{
-        min-height: 70vh;
-    }
-    .chichiCrew{
-        min-height: 70vh;
-    }
-    .me{
-        min-height: 70vh;
-    }
+  nav.navbar-dark.indigo.navbar.navbar-expand-md {
+    background-color: white !important;
+  }
+  .muse1 {
+    min-height: 70vh;
+  }
+  .muse2b {
+    min-height: 70vh;
+  }
+  .muse2 {
+    min-height: 70vh;
+  }
+  .loladeCrew {
+    min-height: 70vh;
+  }
+  .chichiCrew {
+    min-height: 70vh;
+  }
+  .me {
+    min-height: 70vh;
+  }
 
-    .imageGrid {
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
-        grid-gap: 20px;
-    }
+  .imageGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
 
-    nav.navbar-dark.indigo.navbar.navbar-expand-md {
-        padding-right: 2em;
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-    li.nav-item {
-        padding-left: 12px;
-    }
+  nav.navbar-dark.indigo.navbar.navbar-expand-md {
+    padding-right: 2em;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  li.nav-item {
+    padding-left: 12px;
+  }
 
-    .container.footer {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 3em;
-        padding-left: 1em;
-    }
-    .video-margin{
-        margin-bottom: 3em;
-    }
+  .container.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3em;
+    padding-left: 1em;
+  }
+  .video-margin {
+    margin-bottom: 3em;
+  }
 
-    a.nav-link.Ripple-parent.navAdjust{
-        padding: 0;
-    }
-    
-    a.nav-link.Ripple-parent.navAdjust.active {
-        padding: 0;
-    }
+  a.nav-link.Ripple-parent.navAdjust {
+    padding: 0;
+  }
+
+  a.nav-link.Ripple-parent.navAdjust.active {
+    padding: 0;
+  }
 }

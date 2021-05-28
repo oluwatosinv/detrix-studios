@@ -1,17 +1,18 @@
-import {  MDBContainer, MDBIcon } from
-"mdbreact";
+import { MDBContainer, MDBIcon } from
+    "mdbreact";
 import FormPage from "./Form1";
 
 
 const ContactUs = () => {
-    return ( 
+    return (
         <MDBContainer>
             <div className='contact-img'>
                 <h1 className='contact-tittle-text'>Contact Us</h1>
             </div>
             <FormPage />
+            <h2 className='form-text-bottom'>Follow us on Instagram: @detrixstudios</h2>
         </MDBContainer>
     );
 }
- 
+
 export default ContactUs;
