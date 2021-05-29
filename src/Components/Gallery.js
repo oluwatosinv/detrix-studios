@@ -6,9 +6,11 @@ const Gallery = () => {
     const GalleryImgs = [
         {
             name: 1,
-            text: "Chichi and Davonche",
-            nickName: "real estate",
-            imgUrl: "https://res.cloudinary.com/tosin/image/upload/v1621892685/detrix/P1190394_1.jpg",
+            to:'/Wemimo',
+            text: "Wemimo and Ayotunde",
+            nickName: "wedding vediography",
+            imgUrl: "https://res.cloudinary.com/tosin/image/upload/v1622237194/detrix/WEMIMO.jpg",
+            
         },
         {
             name: 2,
@@ -25,9 +27,10 @@ const Gallery = () => {
         },
         {
             name: 4,
+            to:'/Lanre',
             text: "Lanre and Henry",
             nickName: "wedding Videography",
-            imgUrl: "https://res.cloudinary.com/tosin/image/upload/v1621792592/detrix/P1130106.jpg",
+            imgUrl:"https://res.cloudinary.com/tosin/image/upload/v1622235742/detrix/LANRE_1.jpg",
         },
         {
             name: 5,
@@ -38,10 +41,10 @@ const Gallery = () => {
         },
         {
             name: 6,
-            to:'/Wemimo',
-            text: "Wemimo and Ayotunde",
-            nickName: "wedding vediography",
-            imgUrl: "https://res.cloudinary.com/tosin/image/upload/v1621792591/detrix/P1120768.jpg",
+            to:'/Chichi',
+            text: "Chichi and Davonche",
+            nickName: "real estate",
+            imgUrl: "https://res.cloudinary.com/tosin/image/upload/v1621892685/detrix/P1190394_1.jpg",
         }
     
     ];

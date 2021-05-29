@@ -64,6 +64,9 @@ render() {
               </MDBDropdown>
             </MDBNavItem>
             <MDBNavItem>
+              <a className='client nav-link' target='blank' href="https://detrixstudios.pixieset.com/">Client Gallery</a>
+            </MDBNavItem>
+            <MDBNavItem>
               <MDBNavLink to="/ContactUs">Contact US</MDBNavLink>
             </MDBNavItem>
           </MDBNavbarNav>

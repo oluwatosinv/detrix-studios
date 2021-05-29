@@ -33,7 +33,7 @@ const WeddingVideos = () => {
             name: 5,
             text: "Lanre and Henry",
             nickName: "wedding videos",
-            imgUrl: "https://www.youtube.com/embed/ssV9ESVi9V0",
+            imgUrl: "https://www.youtube.com/embed/VReT2j2LMSU",
         },
         {
             name: 6,

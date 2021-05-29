@@ -14,6 +14,9 @@ import WeddingVideos from './Components/WeddingVideos';
 import WeddingPhotos from './Components/WeddingPhotos';
 import LoladeAndLanre from './Components/LoladeAndLanre'
 import Wemimo from './Components/WemmimoAndAyotunde';
+import LanreAndHenry from './Components/LanreAndHenry';
+import ChichiAndDavoloche from './Components/ChichiAndDavoloche';
+
 
 function App() {
   return (
@@ -29,7 +32,9 @@ function App() {
             <Route path='/WeddingVideos' component={WeddingVideos}/>
             <Route path='/ContactUs' component={ContactUs}/>
             <Route path='/Lolade' component={LoladeAndLanre}/>
+            <Route path='/Lanre' component={LanreAndHenry}/>
             <Route path='/Wemimo' component={Wemimo}/>
+            <Route path='/Chichi' component={ChichiAndDavoloche}/>
           </Switch>
         <Footer/>
       </Router>

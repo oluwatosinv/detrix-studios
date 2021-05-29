@@ -1,33 +1,26 @@
-import { CropRotateOutlined } from "@material-ui/icons";
 import { MDBContainer } from "mdbreact";
 import { Link } from "react-router-dom";
 
-const Corporate = () => {
+const Lanre = () => {
     
     const GalleryImgs = [
         {
             name: 1,
-            text: "Hampton Court",
-            nickName: "Videos",
-            imgUrl: "https://www.youtube.com/embed/fV35WK4clZU",
+            text: "The Vow",
+            nickName: "videograhy",
+            imgUrl: "https://www.youtube.com/embed/VReT2j2LMSU",
         },
         {
             name: 2,
-            text: "Documentary",
-            nickName: "real estate Videos",
-            imgUrl: "https://www.youtube.com/embed/IlPvI4hAxe8",
-        },
-        {
-            name: 3,
-            text: "E Book Business Video",
-            nickName: "Videos",
-            imgUrl: "https://www.youtube.com/embed/gXJJUeaMaVw",
+            text: "Wedding",
+            nickName: "Videography",
+            imgUrl: "https://www.youtube.com/embed/Hey-rDqyGg4",
         }
     ];
     return (
         <MDBContainer>
-            <h1 className='ImgGridTittle'>Non Wedding Videos</h1>
-                <div className='VideoGrid lowerVideoGrid'>
+            <h1 className='ImgGridTittle'>Wemimo And Ayotunde</h1>
+                <div className='VideoGrid'>
                     {GalleryImgs.map((GalleryImg, index) => (
                             <div key={GalleryImg.name + index} className='video-margin'>
                                 <iframe width="100%" height="100%"
@@ -43,4 +36,4 @@ const Corporate = () => {
     );
 };
  
-export default Corporate;
+export default Lanre;

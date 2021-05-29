@@ -1,12 +1,15 @@
 import {  MDBContainer, MDBIcon } from
 "mdbreact";
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
     return ( 
         <MDBContainer className='footer'>
             <div>
-                <p>CONNECT WITH US</p>
+                <Link to='/ContactUs' className='contact-title'>
+                    <p>CONNECT WITH US</p>
+                </Link>
                 <div className='footer-icon'>
                     <a href='https://www.instagram.com/DETRIXSTUDIOS/' target='blank' className='ftIcon'>
                         <MDBIcon fab icon="instagram" />
@@ -23,7 +26,9 @@ const Footer = () => {
                 </div>
             </div>
             <div className='inner2'>
-                <p>Contact Us</p>
+                <Link to='/ContactUs' className='contact-title'>
+                    <p>Contact US</p>
+                </Link>
                 <p>plot 33 ayo balogun avenue lagos</p>
                 <p>
                     <MDBIcon icon="phone-alt" />

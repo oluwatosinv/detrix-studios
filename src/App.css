@@ -55,6 +55,29 @@ h1.galleryTittle {
   margin-top: 3em;
   margin-bottom: 3em;
 }
+h1.about-title {
+  font-weight: 700;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.about-image{
+  width: 100%;
+}
+.about-grid {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-gap: 2em;
+}
+.contact-title{
+  color: black;
+  cursor: pointer;
+}
+
+button.btn-primary.btn-outline-primary.btn.Ripple-parent.see-more {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 .select-customize{
   border: none;
@@ -333,6 +356,9 @@ a.ftIcon {
   .lowerVideoGrid {
     grid-template-columns: 1fr;
   }
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (max-width: 900px) and (min-width: 501px) {
@@ -393,5 +419,11 @@ a.ftIcon {
 
   a.nav-link.Ripple-parent.navAdjust.active {
     padding: 0;
+  }
+  .about-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  h2.about-grid-tittle {
+    font-size: 26px;
   }
 }

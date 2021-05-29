@@ -3,14 +3,14 @@ import { MDBContainer } from "mdbreact";
 import { render } from "react-dom";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
-import { photos } from "./photos";
+import { ChichiPhotos } from "./ChichiPhotos";
 import ButtonMore from "./Button";
 
 function LoladeAndLanre() {
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
-  const openLightbox = useCallback((event, { photo, index }) => {
+  const openLightbox = useCallback((event, { ChichiPhotos, index }) => {
     setCurrentImage(index);
     setViewerIsOpen(true);
   }, []);
@@ -22,8 +22,8 @@ function LoladeAndLanre() {
 
   return (
     <MDBContainer className='galleyLolade'>
-      <h1 className='galleryTittle'>Lolade and Lanre</h1>
-      <Gallery photos={photos} onClick={openLightbox}/>
+      <h1 className='galleryTittle'>Chichi and Davonche</h1>
+      <Gallery photos={ChichiPhotos} onClick={openLightbox}/>
       <ModalGateway>
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>
@@ -38,9 +38,7 @@ function LoladeAndLanre() {
           </Modal>
         ) : null}
       </ModalGateway>
-      <a target="_blank" href="https://detrixstudios.pixieset.com/loladeandlanre/">
-          <ButtonMore />
-      </a>
+      <ButtonMore />
     </MDBContainer>
   );
 }
