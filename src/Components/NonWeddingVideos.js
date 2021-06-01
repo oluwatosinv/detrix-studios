@@ -13,9 +13,9 @@ const NonWeddingVideos = () => {
         },
         {
             name: 2,
-            text: "Adeola and Olabode",
+            text: "Business Video",
             nickName: "wedding videos",
-            imgUrl: "https://www.youtube.com/embed/rklWfmt9uA4",
+            imgUrl: "https://www.youtube.com/embed/XBg_kglBF0k",
         },
         {
             name: 3,

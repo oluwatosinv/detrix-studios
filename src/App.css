@@ -79,6 +79,18 @@ button.btn-primary.btn-outline-primary.btn.Ripple-parent.see-more {
   margin-bottom: 20px;
 }
 
+.status-message {
+  opacity: 0;
+}
+.success {
+  opacity: 1;
+  color: green;
+}
+.failure {
+  opacity: 1;
+  color: red;
+}
+
 .select-customize{
   border: none;
   border-bottom: 1px solid #ced4da;
