@@ -25,9 +25,9 @@ const Corporate = () => {
         },
         {
             name: 4,
-            text: "Documentary",
-            nickName: "real estate Videos",
-            imgUrl: "https://www.youtube.com/embed/IlPvI4hAxe8",
+            text: "Nkeko Drinking Game",
+            nickName: "Videos",
+            imgUrl: "https://www.youtube.com/embed/wW1dqckSlLI",
         },
         {
             name: 5,
@@ -37,8 +37,8 @@ const Corporate = () => {
         },
         {
             name: 6,
-            text: "Documentary",
-            nickName: "real estate Videos",
+            text: "Nikkie Academy",
+            nickName: "Business Videos",
             imgUrl: "https://www.youtube.com/embed/XBg_kglBF0k",
         }
     ];
