@@ -16,6 +16,7 @@ import LoladeAndLanre from './Components/LoladeAndLanre'
 import Wemimo from './Components/WemmimoAndAyotunde';
 import LanreAndHenry from './Components/LanreAndHenry';
 import ChichiAndDavoloche from './Components/ChichiAndDavoloche';
+import weddingPhotography from './Components/weddingPhotography';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
             <Route path='/Lanre' component={LanreAndHenry}/>
             <Route path='/Wemimo' component={Wemimo}/>
             <Route path='/Chichi' component={ChichiAndDavoloche}/>
+            <Route path='/weddingPhotography' component={weddingPhotography}/>
           </Switch>
         <Footer/>
       </Router>

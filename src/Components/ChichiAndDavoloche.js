@@ -29,7 +29,7 @@ function LoladeAndLanre() {
           <Modal onClose={closeLightbox}>
             <Carousel
               currentIndex={currentImage}
-              views={photos.map(x => ({
+              views={ChichiPhotos.map(x => ({
                 ...x,
                 srcset: x.srcSet,
                 caption: x.title

@@ -22,6 +22,24 @@ const Corporate = () => {
             text: "E Book Business Video",
             nickName: "Videos",
             imgUrl: "https://www.youtube.com/embed/gXJJUeaMaVw",
+        },
+        {
+            name: 4,
+            text: "Documentary",
+            nickName: "real estate Videos",
+            imgUrl: "https://www.youtube.com/embed/IlPvI4hAxe8",
+        },
+        {
+            name: 5,
+            text: "Documentary",
+            nickName: "real estate Videos",
+            imgUrl: "https://www.youtube.com/embed/IlPvI4hAxe8",
+        },
+        {
+            name: 6,
+            text: "Documentary",
+            nickName: "real estate Videos",
+            imgUrl: "https://www.youtube.com/embed/XBg_kglBF0k",
         }
     ];
     return (
