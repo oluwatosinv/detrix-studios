@@ -3,6 +3,7 @@ import Carousel from './Carousel'
 import Gallery from './Gallery'
 import Corporate from './NonWeddingVid';
 import TestimonialsPage from './TestimonialsPage';
+import VideoTest from './VideoTest';
 
 const HomePage = () => {
     return ( 

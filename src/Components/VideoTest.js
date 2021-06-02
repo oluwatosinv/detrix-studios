@@ -1,52 +1,55 @@
-import { CropRotateOutlined } from "@material-ui/icons";
-import { MDBContainer } from "mdbreact";
-import { Link } from "react-router-dom";
+import React from "react";
 import LiteYouTubeEmbed from 'react-lite-youtube-embed';
 import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
+import { MDBContainer } from "mdbreact";
 
-const Corporate = () => {
-    
+
+const VideoTest = () => {
+
     const GalleryImgs = [
         {
             name: 1,
-            text: "Hampton Court",
-            nickName: "Videos",
-            imgUrl: "fV35WK4clZU",
-        },
-        {
-            name: 2,
-            text: "Documentary",
-            nickName: "real estate Videos",
-            imgUrl: "IlPvI4hAxe8",
-        },
-        {
-            name: 3,
-            text: "E Book Business Video",
-            nickName: "Videos",
-            imgUrl: "gXJJUeaMaVw",
-        },
-        {
-            name: 4,
             text: "Nkeko Drinking Game",
             nickName: "Videos",
             imgUrl: "wW1dqckSlLI",
         },
         {
-            name: 5,
-            text: "SMILE & SHINE BOOK LAUNCH",
-            nickName: "Book lauch Videos",
-            imgUrl: "JxBW3adCsvc",
+            name: 2,
+            text: "Business Video",
+            nickName: "wedding videos",
+            imgUrl: "XBg_kglBF0k",
         },
         {
-            name: 6,
-            text: "Nikkie Academy",
-            nickName: "Business Videos",
-            imgUrl: "XBg_kglBF0k",
+            name: 3,
+            text: "Hampton Court",
+            nickName: "Real estate videos",
+            imgUrl: "fV35WK4clZU",
         }
+        // {
+        //     name: 4,
+        //     text: "Inkmade Documentry",
+        //     nickName: "Documentary",
+        //     imgUrl: "https://www.youtube.com/embed/IlPvI4hAxe8",
+        // },
+        // {
+        //     name: 5,
+        //     text: "E book Business video",
+        //     nickName: "E book Business video",
+        //     imgUrl: "https://www.youtube.com/embed/gXJJUeaMaVw",
+        // },
+        // {
+        //     name: 6,
+        //     text: "SMILE & SHINE BOOK LAUNCH",
+        //     nickName: "Book lauch Videos",
+        //     imgUrl: "https://www.youtube.com/embed/JxBW3adCsvc",
+        // }
+        
     ];
-    return (
+
+
+    return ( 
         <MDBContainer>
-            <h1 className='ImgGridTittle'>Non Wedding Videos</h1>
+        <h1 className='ImgGridTittle'>Non Wedding Videos</h1>
             <div className='VideoGrid lowerVideoGrid'>
                 {GalleryImgs.map((GalleryImg, index) => (
                         <div key={GalleryImg.name + index} className='video-margin'>
@@ -64,7 +67,13 @@ const Corporate = () => {
             </div>
             
         </MDBContainer>
-    );
-};
+     );
+}
  
-export default Corporate;
+export default VideoTest;
+
+
+
+
+ 
+ 
