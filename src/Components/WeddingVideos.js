@@ -52,7 +52,7 @@ const WeddingVideos = () => {
                                 <iframe width="100%" height="100%"
                                     className='gridVideo'
                                     src={GalleryImg.imgUrl}
-                                    alt={`${GalleryImg.name}`}
+                                    title={`${GalleryImg.name}`}
                                 />
                                 <h3 className='gridText'>{GalleryImg.text}</h3>
                             </div>

@@ -9,14 +9,14 @@ const Gallery = () => {
             to:'/Wemimo',
             text: "Wemimo and Ayotunde",
             nickName: "wedding vediography",
-            imgUrl: "https://res.cloudinary.com/tosin/image/upload/v1622237194/detrix/WEMIMO.jpg",
+            imgUrl: "https://res.cloudinary.com/tosin/image/upload/dpr_auto,f_auto,w_auto,q_auto/v1622237194/detrix/WEMIMO.jpg",
             
         },
         {
             name: 2,
             text: "fransica Muse",
             nickName: "real estate",
-            imgUrl: "https://res.cloudinary.com/tosin/image/upload/v1621792591/detrix/P1120768.jpg",
+            imgUrl: "https://res.cloudinary.com/tosin/image/upload/dpr_auto,f_auto,w_auto,q_auto/v1621792591/detrix/P1120768.jpg",
         },
         {
             name: 3,
@@ -30,21 +30,21 @@ const Gallery = () => {
             to:'/Lanre',
             text: "Lanre and Henry",
             nickName: "wedding Videography",
-            imgUrl:"https://res.cloudinary.com/tosin/image/upload/v1622235742/detrix/LANRE_1.jpg",
+            imgUrl:"https://res.cloudinary.com/tosin/image/upload/dpr_auto,f_auto,w_auto,q_auto/v1622235742/detrix/LANRE_1.jpg",
         },
         {
             name: 5,
             to:'/Lolade',
             text: "Lorem ipsum dolor ",
             nickName: "photography",
-            imgUrl: "https://res.cloudinary.com/tosin/image/upload/v1621792592/detrix/P1130106.jpg",
+            imgUrl: "https://res.cloudinary.com/tosin/image/upload/dpr_auto,f_auto,w_auto,q_auto/v1621792592/detrix/P1130106.jpg",
         },
         {
             name: 6,
             to:'/Chichi',
             text: "Chichi and Davonche",
             nickName: "real estate",
-            imgUrl: "https://res.cloudinary.com/tosin/image/upload/v1621892685/detrix/P1190394_1.jpg",
+            imgUrl: "https://res.cloudinary.com/tosin/image/upload/dpr_auto,f_auto,w_auto,q_auto/v1621892685/detrix/P1190394_1.jpg",
         }
     
     ];
