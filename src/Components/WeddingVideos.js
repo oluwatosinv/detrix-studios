@@ -25,9 +25,9 @@ const WeddingVideos = () => {
         },
         {
             name: 4,
-            text: "#AdaObi",
+            text: "#TEECHI 2020",
             nickName: "real estate",
-            imgUrl: "https://www.youtube.com/embed/hDxS_Xb03hE",
+            imgUrl: "https://www.youtube.com/embed/Zr51SWDIqyA",
         },
         {
             name: 5,
@@ -37,7 +37,7 @@ const WeddingVideos = () => {
         },
         {
             name: 6,
-            text: "Traditional Wedding",
+            text: "#AdaObi",
             nickName: "real estate",
             imgUrl: "https://www.youtube.com/embed/hDxS_Xb03hE",
         }

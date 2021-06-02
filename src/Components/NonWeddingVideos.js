@@ -7,9 +7,9 @@ const NonWeddingVideos = () => {
     const GalleryImgs = [
         {
             name: 1,
-            text: "Wemimo and Ayotunde",
-            nickName: "wedding videos",
-            imgUrl: "https://www.youtube.com/embed/IZfJcZcUOO0",
+            text: "Nkeko Drinking Game",
+            nickName: "Videos",
+            imgUrl: "https://www.youtube.com/embed/wW1dqckSlLI",
         },
         {
             name: 2,
@@ -37,9 +37,9 @@ const NonWeddingVideos = () => {
         },
         {
             name: 6,
-            text: "Traditional Wedding",
-            nickName: "real estate",
-            imgUrl: "https://www.youtube.com/embed/hDxS_Xb03hE",
+            text: "SMILE & SHINE BOOK LAUNCH",
+            nickName: "Book lauch Videos",
+            imgUrl: "https://www.youtube.com/embed/JxBW3adCsvc",
         }
         
     ];

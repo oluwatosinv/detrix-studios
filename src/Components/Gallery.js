@@ -23,7 +23,7 @@ const Gallery = () => {
             to:'/Lolade',
             text: "Lolade And Lanre",
             nickName: "real estate",
-            imgUrl: "https://res.cloudinary.com/tosin/image/upload/v1621983199/detrix/lolade%20and%20lanre/P1120768a.jpg",
+            imgUrl: "https://res.cloudinary.com/tosin/image/upload/dpr_auto,f_auto,w_auto,q_auto/v1621983199/detrix/lolade%20and%20lanre/P1120768a.jpg",
         },
         {
             name: 4,

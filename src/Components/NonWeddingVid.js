@@ -31,9 +31,9 @@ const Corporate = () => {
         },
         {
             name: 5,
-            text: "Documentary",
-            nickName: "real estate Videos",
-            imgUrl: "https://www.youtube.com/embed/IlPvI4hAxe8",
+            text: "SMILE & SHINE BOOK LAUNCH",
+            nickName: "Book lauch Videos",
+            imgUrl: "https://www.youtube.com/embed/JxBW3adCsvc",
         },
         {
             name: 6,
