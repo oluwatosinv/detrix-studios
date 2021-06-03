@@ -121,8 +121,12 @@ button.btn-primary.btn-outline-primary.btn.Ripple-parent.see-more {
   font-weight: 700;
 }
 
+img.gridImg{
+  width: 100%; /* or max-width: 100%; */
+  height: auto;
+}
 .me {
-  background-image: url("https://res.cloudinary.com/tosin/image/upload/dpr_auto,f_auto,w_auto,q_auto/v1621806614/detrix/_P6A2009.jpg;");
+  background-image: url("https://res.cloudinary.com/tosin/image/upload/dpr_auto,f_auto,w_auto,q_auto/v1622630332/detrix/_P6A2009.jpg");
   background-size: cover;
   min-height: 90vh;
   width: auto;
