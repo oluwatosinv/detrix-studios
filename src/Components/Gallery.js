@@ -46,7 +46,7 @@ const Gallery = () => {
             to:'/TeeChi',
             text: "TeeChi 2020",
             nickName: "photography",
-            imgUrl: "https://res.cloudinary.com/tosin/image/upload/dpr_auto,f_auto,q_auto,w_auto/v1622925745/detrix/P1120798_1_1.jpg"
+            imgUrl: "https://res.cloudinary.com/tosin/image/upload/dpr_auto,f_auto,q_auto,w_auto/v1622925745/detrix/P1120798_2_1.jpg"
         }
     
     ];
