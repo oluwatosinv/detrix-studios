@@ -1,30 +1,32 @@
-import React from 'react'
+import React, { Suspense, lazy } from 'react'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css'
+import Loader from './Components/Loader';
 import Nav from './Components/Nav'
 
 
-import HomePage from './Components/HomePage';
-import About from './Components/About';
-import ContactUs from './Components/ContactUs';
-import Footer from './Components/Footer';
-import NonWeddingPhotos from './Components/NonWeddingPhotos';
-import NonWeddingVideos from './Components/NonWeddingVideos';
-import WeddingVideos from './Components/WeddingVideos';
-import WeddingPhotos from './Components/WeddingPhotos';
-import LoladeAndLanre from './Components/LoladeAndLanre'
-import Wemimo from './Components/WemmimoAndAyotunde';
-import LanreAndHenry from './Components/LanreAndHenry';
-import ChichiAndDavoloche from './Components/ChichiAndDavoloche';
-import weddingPhotography from './Components/weddingPhotography';
-import TeeChi from './Components/TeeChi';
-import Muse from './Components/Muse';
+const HomePage = lazy(() =>import  ( './Components/HomePage'));
+const About = lazy(() =>import ('./Components/About'));
+const ContactUs = lazy(() =>import ('./Components/ContactUs'));
+const Footer = lazy(() =>import ('./Components/Footer'));
+const NonWeddingPhotos = lazy(() =>import  ('./Components/NonWeddingPhotos'));
+const WeddingVideos = lazy(() =>import ('./Components/WeddingVideos'));
+const WeddingPhotos = lazy(() =>import ('./Components/WeddingPhotos'));
+const NonWeddingVideos = lazy(() =>import ('./Components/NonWeddingVideos'));
+const LoladeAndLanre = lazy(() =>import ('./Components/LoladeAndLanre'));
+const Wemimo = lazy(() =>import ('./Components/WemmimoAndAyotunde'));
+const LanreAndHenry = lazy(() =>import ('./Components/LanreAndHenry'));
+const ChichiAndDavoloche = lazy(() =>import ('./Components/ChichiAndDavoloche'));
+const weddingPhotography = lazy(() =>import ('./Components/weddingPhotography'));
+const TeeChi = lazy(() =>import ('./Components/TeeChi'));
+const Muse = lazy(() =>import ('./Components/Muse'));
 
 
 function App() {
   return (
    <div>
       <Router>
+        <Suspense fallback={<Loader />}>
         <Nav />
           <Switch>
             <Route exact path='/' component={HomePage} />
@@ -50,6 +52,7 @@ function App() {
             />
           </Switch>
         <Footer/>
+        </Suspense>
       </Router>
     </div>
   )
