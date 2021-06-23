@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,700&display=swap");
 
-
+.gradient-button-1 {
+  color: white;
+  padding: 1rem 2.7rem;
+  background-image: linear-gradient(to right, #c09244 0%, #d1ae57 51%, #D1ae57 100%)}
 .loading{
   display: flex;
   justify-content: center;

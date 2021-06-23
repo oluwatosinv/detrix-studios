@@ -9,7 +9,7 @@ const HomePage = lazy(() =>import  ( './Components/HomePage'));
 const About = lazy(() =>import ('./Components/About'));
 const ContactUs = lazy(() =>import ('./Components/ContactUs'));
 const Footer = lazy(() =>import ('./Components/Footer'));
-const NonWeddingPhotos = lazy(() =>import  ('./Components/NonWeddingPhotos'));
+// const NonWeddingPhotos = lazy(() =>import  ('./Components/NonWeddingPhotos'));
 const WeddingVideos = lazy(() =>import ('./Components/WeddingVideos'));
 const WeddingPhotos = lazy(() =>import ('./Components/WeddingPhotos'));
 const NonWeddingVideos = lazy(() =>import ('./Components/NonWeddingVideos'));
@@ -31,7 +31,7 @@ function App() {
           <Switch>
             <Route exact path='/' component={HomePage} />
             <Route path="/about" component={About}/>
-            <Route path='/NonWeddingPhotos' component={NonWeddingPhotos}/>
+            {/* <Route path='/NonWeddingPhotos' component={NonWeddingPhotos}/> */}
             <Route path='/WeddingPhotos' component={WeddingPhotos}/>
             <Route path='/NonWeddingVideos' component={NonWeddingVideos}/>
             <Route path='/WeddingVideos' component={WeddingVideos}/>

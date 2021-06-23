@@ -1,3 +1,4 @@
+import Button2 from './Button2';
 import CarouselPage from './Carousel';
 import Carousel from './Carousel'
 import Gallery from './Gallery'
@@ -10,6 +11,7 @@ const HomePage = () => {
         <div>
             <CarouselPage />
             <Gallery />
+            <Button2 />
             <TestimonialsPage />
             <Corporate />
         </div>

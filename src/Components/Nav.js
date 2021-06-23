@@ -34,6 +34,9 @@ render() {
               <MDBNavLink to="/about">About US</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
+              <MDBNavLink to="/WeddingPhotos">Photos</MDBNavLink>
+            </MDBNavItem>
+            <MDBNavItem>
               <MDBDropdown>
                 <MDBDropdownToggle nav caret>
                   <span className="mr-2">Videos</span>
@@ -48,7 +51,7 @@ render() {
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavItem>
-            <MDBNavItem>
+            {/* <MDBNavItem>
               <MDBDropdown>
                 <MDBDropdownToggle nav caret>
                   <span className="mr-2">Photos</span>
@@ -62,7 +65,7 @@ render() {
                   </MDBNavLink>
                 </MDBDropdownMenu>
               </MDBDropdown>
-            </MDBNavItem>
+            </MDBNavItem> */}
             <MDBNavItem>
               <MDBNavLink to="/Client" target="_blank">Client Gallery</MDBNavLink>
             </MDBNavItem>
