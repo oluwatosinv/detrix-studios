@@ -7,7 +7,7 @@ const CarouselPage = () => {
     <MDBContainer>
       <MDBCarousel
       activeItem={1}
-      length={4}
+      length={3}
       showControls={true}
       showIndicators={true}
       className="z-depth-1 testimonials"
@@ -29,14 +29,8 @@ const CarouselPage = () => {
             <span className='testimonial-name'>Mrs Idowu @50</span>
         </MDBView>
         </MDBCarouselItem>
+        
         <MDBCarouselItem itemId="3" className='carousel-text'>
-        <MDBView>
-            <h3 className="h3-responsive">Testimonials</h3>
-            <p className='carousel-text-inner'>Accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi at vero eos et vitae feugiat magna, ut ligula Accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi at vero eos et vitae feugiat magna, ut ligula</p>
-            <span className='testimonial-name'>Tola and Tayo</span>
-        </MDBView>
-        </MDBCarouselItem>
-        <MDBCarouselItem itemId="4" className='carousel-text'>
         <MDBView>
             <h3 className="h3-responsive">Testimonials</h3>
             <p className='carousel-text-inner'>Good morning, thank you🙏🏼🙏🏼. The videos are nice, we want more 😁

@@ -3,26 +3,26 @@ import { Link } from "react-router-dom";
 import LiteYouTubeEmbed from 'react-lite-youtube-embed';
 import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
 
-const Lanre = () => {
+const TeeChi = () => {
     
     const GalleryImgs = [
         {
             name: 1,
-            text: "The Vow",
-            nickName: "videograhy",
-            imgUrl: "VReT2j2LMSU",
+            text: "White Wedding",
+            nickName: "weddings",
+            imgUrl: "Zr51SWDIqyA",
         },
         {
             name: 2,
-            text: "Wedding",
-            nickName: "Videography",
-            imgUrl: "Hey-rDqyGg4",
+            text: "Reception",
+            nickName: "weddings",
+            imgUrl: "lmIvmB1pHwE",
         }
     ];
     return (
         <MDBContainer>
-            <h1 className='ImgGridTittle'>Wemimo And Ayotunde</h1>
-                <div className='VideoGrid'>
+            <h1 className='ImgGridTittle'>Titilayo and Chiemiere</h1>
+                <div className='VideoGrid '>
                     {GalleryImgs.map((GalleryImg, index) => (
                             <div key={GalleryImg.name + index} className='video-margin'>
                                 <LiteYouTubeEmbed 
@@ -41,4 +41,4 @@ const Lanre = () => {
     );
 };
  
-export default Lanre;
+export default TeeChi;

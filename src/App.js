@@ -17,6 +17,8 @@ import Wemimo from './Components/WemmimoAndAyotunde';
 import LanreAndHenry from './Components/LanreAndHenry';
 import ChichiAndDavoloche from './Components/ChichiAndDavoloche';
 import weddingPhotography from './Components/weddingPhotography';
+import TeeChi from './Components/TeeChi';
+import Muse from './Components/Muse';
 
 
 function App() {
@@ -37,6 +39,15 @@ function App() {
             <Route path='/Wemimo' component={Wemimo}/>
             <Route path='/Chichi' component={ChichiAndDavoloche}/>
             <Route path='/weddingPhotography' component={weddingPhotography}/>
+            <Route path='/TeeChi' component={TeeChi}/>
+            <Route path='/BridalBloom' component={Muse}/>
+            <Route
+              path="/Client"
+              component={() => {
+                global.window && (global.window.location.href = 'https://detrixstudios.pixieset.com/');
+                return null;
+                }}
+            />
           </Switch>
         <Footer/>
       </Router>

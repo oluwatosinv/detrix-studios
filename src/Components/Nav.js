@@ -40,10 +40,10 @@ render() {
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
                   <MDBNavLink to="/WeddingVideos" className='navAdjust'>
-                    <MDBDropdownItem href="/WeddingVideos">Wedding Videos</MDBDropdownItem>
+                    <MDBDropdownItem >Wedding Videos</MDBDropdownItem>
                   </MDBNavLink>
                   <MDBNavLink to="/NonweddingVideos" className='navAdjust'>
-                    <MDBDropdownItem href="/NonweddingVideos">Non Wedding Videos</MDBDropdownItem>
+                    <MDBDropdownItem >Non Wedding Videos</MDBDropdownItem>
                   </MDBNavLink>
                 </MDBDropdownMenu>
               </MDBDropdown>
@@ -55,17 +55,18 @@ render() {
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
                   <MDBNavLink to="/WeddingPhotos" className='navAdjust'>
-                    <MDBDropdownItem href="/WeddingPhotos">Wedding Photos</MDBDropdownItem>
+                    <MDBDropdownItem >Wedding Photos</MDBDropdownItem>
                   </MDBNavLink>
                   <MDBNavLink to="/NonweddingPhotos" className='navAdjust'>
-                    <MDBDropdownItem href="/NonweddingPhotos">Non Wedding Photos</MDBDropdownItem>
+                    <MDBDropdownItem>Non Wedding Photos</MDBDropdownItem>
                   </MDBNavLink>
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavItem>
             <MDBNavItem>
-              <a className='client nav-link' target='blank' href="https://detrixstudios.pixieset.com/">Client Gallery</a>
+              <MDBNavLink to="/Client" target="_blank">Client Gallery</MDBNavLink>
             </MDBNavItem>
+   
             <MDBNavItem>
               <MDBNavLink to="/ContactUs">Contact US</MDBNavLink>
             </MDBNavItem>

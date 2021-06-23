@@ -2,7 +2,7 @@ import Lightroom from "react-lightbox-gallery";
 import { MDBContainer } from "mdbreact";
 
 
-export default function WeddingPhotos() {
+export default function Muse() {
   var images = [
     // {
     //   src:
@@ -12,37 +12,37 @@ export default function WeddingPhotos() {
     // },
     {
       src:
-        "https://res.cloudinary.com/tosin/image/upload/v1622237542/detrix/CHICHI/P1190452.jpg",
+        "https://res.cloudinary.com/tosin/image/upload/v1622926767/detrix/Muse/P1120781.jpg",
       desc: "Wedding",
       sub: "Bridal Bloom"
     },
     {
       src:
-      "https://res.cloudinary.com/tosin/image/upload/v1621891681/detrix/P1190089_1.jpg",
+        "https://res.cloudinary.com/tosin/image/upload/v1622926768/detrix/Muse/P1130071.jpg",
       desc: "Wedding",
       sub: "Bridal Bloom"
     },
     {
       src:
-      "https://res.cloudinary.com/tosin/image/upload/v1622630451/detrix/P1130106.jpg",
+        "https://res.cloudinary.com/tosin/image/upload/v1622926768/detrix/Muse/P1130245.jpg",
       desc: "Wedding",
       sub: "Bridal Bloom"
     },
     {
       src:
-      "https://res.cloudinary.com/tosin/image/upload/v1622237536/detrix/CHICHI/P1180833.jpg",
+        "https://res.cloudinary.com/tosin/image/upload/v1622926767/detrix/Muse/P1120798.jpg",
       desc: "Wedding",
       sub: "Bridal Bloom"
     },
     {
       src:
-        "https://res.cloudinary.com/tosin/image/upload/v1622630298/detrix/_P6A1992.jpg",
+        "https://res.cloudinary.com/tosin/image/upload/v1622926767/detrix/Muse/P1120827.jpg",
       desc: "wedding",
       sub: "Bridal Bloom"
     },
     {
       src:
-        "https://res.cloudinary.com/tosin/image/upload/v1621942914/detrix/lolade%20and%20lanre/P1070097.jpg",
+        "https://res.cloudinary.com/tosin/image/upload/v1622926768/detrix/Muse/P1130240.jpg",
       desc: "Wedding",
       sub: "Bridal Bloom"
     },
@@ -60,19 +60,19 @@ export default function WeddingPhotos() {
     },
     {
         src:
-          "https://res.cloudinary.com/tosin/image/upload/v1622630451/detrix/P1130106.jpg",
+          "https://res.cloudinary.com/tosin/image/upload/v1622926768/detrix/Muse/P1130201.jpg",
         desc: "Wedding",
         sub: "Bridal Bloom"
     },
     {
         src:
-        "https://res.cloudinary.com/tosin/image/upload/v1621942906/detrix/lolade%20and%20lanre/P1060213.jpg",
+          "https://res.cloudinary.com/tosin/image/upload/v1622926766/detrix/Muse/P1120649.jpg",
         desc: "Wedding",
         sub: "Bridal Bloom"
     },
     {
         src:
-          "https://res.cloudinary.com/tosin/image/upload/v1622237542/detrix/CHICHI/P1190452.jpg",
+          "https://res.cloudinary.com/tosin/image/upload/v1622926766/detrix/Muse/P1120664.jpg",
         desc: "Wedding",
         sub: "Bridal Bloom"
     },
@@ -87,11 +87,8 @@ export default function WeddingPhotos() {
   };
   return (
     <MDBContainer className='galleyLolade'>
-      <h1 className='galleryTittle'>Wedding Photography</h1>
+      <h1 className='galleryTittle'>Bridal Bloom</h1>
       <Lightroom images={images} settings={settings} />
     </MDBContainer>
   );
 }
-
-
-

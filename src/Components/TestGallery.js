@@ -1,8 +1,6 @@
+
 import Lightroom from "react-lightbox-gallery";
-import { MDBContainer } from "mdbreact";
-
-
-export default function LoladeAndLanre() {
+export default function Testgallery() {
   var images = [
     // {
     //   src:
@@ -13,51 +11,47 @@ export default function LoladeAndLanre() {
     {
       src:
         "https://res.cloudinary.com/tosin/image/upload/v1622628578/detrix/lolade%20and%20lanre/P1120768a.jpg",
-      desc: "Wedding",
-      sub: "Lolade and Lanre"
+      desc: "Blonde woman wearing sunglasses smiling at the camera ",
+      sub: "Dmitriy Frantsev"
     },
     {
       src:
         "https://res.cloudinary.com/tosin/image/upload/v1621942916/detrix/lolade%20and%20lanre/P1060845.jpg",
-      desc: "Wedding",
-      sub: "Lolade and Lanre"
+      desc: "Man and woman passing by store",
+      sub: "Harry Cunningham"
     },
     {
       src:
         "https://res.cloudinary.com/tosin/image/upload/v1621942914/detrix/lolade%20and%20lanre/P1060727.jpg",
-      desc: "Wedding",
-      sub: "Lolade and Lanre"
+      desc: "Jaipur , Rajasthan India",
+      sub: "Liam Baldock"
     },
     {
       src:
         "https://res.cloudinary.com/tosin/image/upload/v1621942910/detrix/lolade%20and%20lanre/P1060795.jpg",
-      desc: "Wedding",
-      sub: "Lolade and Lanre"
+      sub: "Verne Ho"
     },
     {
       src:
         "https://res.cloudinary.com/tosin/image/upload/v1621942909/detrix/lolade%20and%20lanre/P1060546.jpg",
-      desc: "wedding",
-      sub: "Lolade and Lanre"
+      desc: "Rann of kutch , India",
+      sub: "Hari Nandakumar"
     },
     {
       src:
         "https://res.cloudinary.com/tosin/image/upload/v1621942906/detrix/lolade%20and%20lanre/P1060213.jpg",
-      desc: "Wedding",
-      sub: "Lolade and Lanre"
+      sub: "Jyotirmoy Gupta"
     },
     {
       src:
         "https://res.cloudinary.com/tosin/image/upload/v1621942906/detrix/lolade%20and%20lanre/P1060335.jpg",
-      desc: "Wedding",
-      sub: "Lolade and Lanre"
+      sub: "Tom & Sini"
     },
     {
-      src:
-        "https://res.cloudinary.com/tosin/image/upload/v1621942906/detrix/lolade%20and%20lanre/P1060516.jpg",
-      desc: "Wedding",
-      sub: "Lolade and Lanre"
-    }
+        src:
+          "https://res.cloudinary.com/tosin/image/upload/v1621942906/detrix/lolade%20and%20lanre/P1060516.jpg",
+        sub: "Tom & Sini"
+      }
   ];
   var settings = {
     columnCount: {
@@ -68,9 +62,8 @@ export default function LoladeAndLanre() {
     mode: "dark"
   };
   return (
-    <MDBContainer className='galleyLolade'>
-      <h1 className='galleryTittle'>Lolade and Lanre</h1>
+    <div className="App">
       <Lightroom images={images} settings={settings} />
-    </MDBContainer>
+    </div>
   );
 }
