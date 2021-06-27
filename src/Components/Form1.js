@@ -91,9 +91,11 @@ const FormPage = () => {
                   />
                 </MDBCol>
               </MDBRow>
-              <MDBInput name='dayDate' label="Event date/ shoot date" icon="calendar" group type="date"
+              <label>Event/shoot Date</label>
+              <MDBInput name='dayDate' icon="calendar" group type="date"
                 validate error="wrong" success="right" {...register('dayDate', { required: false })}
               />
+              
               <MDBInput name='message' type="textarea" rows="2" label="Tell us more about your shoot/events"
                 icon="pencil-alt" success="right" {...register('message', { required: false })}
               />

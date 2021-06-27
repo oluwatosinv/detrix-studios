@@ -48,7 +48,7 @@ const WeddingVideos = () => {
     ];
     return (
         <MDBContainer>
-            <h1 className='ImgGridTittle'>Non Wedding Videos</h1>
+            <h1 className='ImgGridTittle'>Wedding Videos</h1>
             <div className='VideoGrid lowerVideoGrid'>
                 {GalleryImgs.map((GalleryImg, index) => (
                         <div key={GalleryImg.name + index} className='video-margin'>

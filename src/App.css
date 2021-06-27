@@ -274,6 +274,9 @@ a.ftIcon {
     padding-left: 26px;
     padding-right: 26px;
   }
+  p.promo {
+    font-size: 30px;
+  }
 
   nav.navbar-dark.indigo.navbar.navbar-expand-md {
     background-color: white !important;
