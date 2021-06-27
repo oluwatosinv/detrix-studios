@@ -30,6 +30,9 @@
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+.about-contact-us {
+  margin-right: 4px;
+}
 
 html,
 body {

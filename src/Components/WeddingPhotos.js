@@ -30,7 +30,7 @@ export default function WeddingPhotos() {
     },
     {
       src:
-      "https://res.cloudinary.com/tosin/image/upload/v1622237536/detrix/CHICHI/P1180833.jpg",
+      "https://res.cloudinary.com/tosin/image/upload/v1624816421/detrix/WALE%20AKINBOBOLA/P1080708.jpg",
       desc: "Wedding",
       sub: "Bridal Bloom"
     },
@@ -42,13 +42,19 @@ export default function WeddingPhotos() {
     },
     {
       src:
+      "https://res.cloudinary.com/tosin/image/upload/v1622237536/detrix/CHICHI/P1180833.jpg",
+      desc: "Wedding",
+      sub: "Bridal Bloom"
+    },
+    {
+      src:
         "https://res.cloudinary.com/tosin/image/upload/v1621942914/detrix/lolade%20and%20lanre/P1070097.jpg",
       desc: "Wedding",
       sub: "Bridal Bloom"
     },
     {
       src:
-        "https://res.cloudinary.com/tosin/image/upload/v1622926767/detrix/Muse/P1120693.jpg",
+        "https://res.cloudinary.com/tosin/image/upload/v1621792592/detrix/P1130245.jpg",
       desc: "Wedding",
       sub: "Bridal Bloom"
     },
@@ -71,6 +77,12 @@ export default function WeddingPhotos() {
         sub: "Bridal Bloom"
     },
     {
+      src:
+      "https://res.cloudinary.com/tosin/image/upload/v1624816421/detrix/WALE%20AKINBOBOLA/P1080623.jpg",
+      desc: "Wedding",
+      sub: "Bridal Bloom"
+    },
+    {
         src:
           "https://res.cloudinary.com/tosin/image/upload/v1622237542/detrix/CHICHI/P1190452.jpg",
         desc: "Wedding",
@@ -87,7 +99,7 @@ export default function WeddingPhotos() {
   };
   return (
     <MDBContainer className='galleyLolade'>
-      <h1 className='galleryTittle'>Wedding Photography</h1>
+      <h1 className='galleryTittle'>Photography</h1>
       <Lightroom images={images} settings={settings} />
     </MDBContainer>
   );
