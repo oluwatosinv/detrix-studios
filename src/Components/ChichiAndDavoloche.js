@@ -23,16 +23,16 @@ function LoladeAndLanre() {
   return (
     <MDBContainer className='galleyLolade'>
       <h1 className='galleryTittle'>Chichi and Davonche</h1>
-      <Gallery photos={ChichiPhotos} onClick={openLightbox}/>
+      <Gallery photos={ChichiPhotos} onClick={openLightbox} />
       <ModalGateway>
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>
             <Carousel
               currentIndex={currentImage}
-              views={ChichiPhotos.map(x => ({
+              views={ChichiPhotos.map((x) => ({
                 ...x,
                 srcset: x.srcSet,
-                caption: x.title
+                caption: x.title,
               }))}
             />
           </Modal>

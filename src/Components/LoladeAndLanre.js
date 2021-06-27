@@ -1,7 +1,6 @@
 import Lightroom from "react-lightbox-gallery";
 import { MDBContainer } from "mdbreact";
 
-
 export default function LoladeAndLanre() {
   var images = [
     // {
@@ -11,61 +10,53 @@ export default function LoladeAndLanre() {
     //   sub: "Gift Habeshaw"
     // },
     {
-      src:
-        "https://res.cloudinary.com/tosin/image/upload/v1622628578/detrix/lolade%20and%20lanre/P1120768a.jpg",
+      src: "https://res.cloudinary.com/tosin/image/upload/v1622628578/detrix/lolade%20and%20lanre/P1120768a.jpg",
       desc: "Wedding",
-      sub: "Lolade and Lanre"
+      sub: "Lolade and Lanre",
     },
     {
-      src:
-        "https://res.cloudinary.com/tosin/image/upload/v1621942916/detrix/lolade%20and%20lanre/P1060845.jpg",
+      src: "https://res.cloudinary.com/tosin/image/upload/v1621942916/detrix/lolade%20and%20lanre/P1060845.jpg",
       desc: "Wedding",
-      sub: "Lolade and Lanre"
+      sub: "Lolade and Lanre",
     },
     {
-      src:
-        "https://res.cloudinary.com/tosin/image/upload/v1621942914/detrix/lolade%20and%20lanre/P1060727.jpg",
+      src: "https://res.cloudinary.com/tosin/image/upload/v1621942914/detrix/lolade%20and%20lanre/P1060727.jpg",
       desc: "Wedding",
-      sub: "Lolade and Lanre"
+      sub: "Lolade and Lanre",
     },
     {
-      src:
-        "https://res.cloudinary.com/tosin/image/upload/v1621942910/detrix/lolade%20and%20lanre/P1060795.jpg",
+      src: "https://res.cloudinary.com/tosin/image/upload/v1621942910/detrix/lolade%20and%20lanre/P1060795.jpg",
       desc: "Wedding",
-      sub: "Lolade and Lanre"
+      sub: "Lolade and Lanre",
     },
     {
-      src:
-        "https://res.cloudinary.com/tosin/image/upload/v1621942909/detrix/lolade%20and%20lanre/P1060546.jpg",
+      src: "https://res.cloudinary.com/tosin/image/upload/v1621942909/detrix/lolade%20and%20lanre/P1060546.jpg",
       desc: "wedding",
-      sub: "Lolade and Lanre"
+      sub: "Lolade and Lanre",
     },
     {
-      src:
-        "https://res.cloudinary.com/tosin/image/upload/v1621942906/detrix/lolade%20and%20lanre/P1060213.jpg",
+      src: "https://res.cloudinary.com/tosin/image/upload/v1621942906/detrix/lolade%20and%20lanre/P1060213.jpg",
       desc: "Wedding",
-      sub: "Lolade and Lanre"
+      sub: "Lolade and Lanre",
     },
     {
-      src:
-        "https://res.cloudinary.com/tosin/image/upload/v1621942906/detrix/lolade%20and%20lanre/P1060335.jpg",
+      src: "https://res.cloudinary.com/tosin/image/upload/v1621942906/detrix/lolade%20and%20lanre/P1060335.jpg",
       desc: "Wedding",
-      sub: "Lolade and Lanre"
+      sub: "Lolade and Lanre",
     },
     {
-      src:
-        "https://res.cloudinary.com/tosin/image/upload/v1621942906/detrix/lolade%20and%20lanre/P1060516.jpg",
+      src: "https://res.cloudinary.com/tosin/image/upload/v1621942906/detrix/lolade%20and%20lanre/P1060516.jpg",
       desc: "Wedding",
-      sub: "Lolade and Lanre"
-    }
+      sub: "Lolade and Lanre",
+    },
   ];
   var settings = {
     columnCount: {
       default: 3,
       mobile: 3,
-      tab: 4
+      tab: 4,
     },
-    mode: "dark"
+    mode: "dark",
   };
   return (
     <MDBContainer className='galleyLolade'>

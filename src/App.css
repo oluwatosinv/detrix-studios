@@ -3,8 +3,14 @@
 .gradient-button-1 {
   color: white;
   padding: 1rem 2.7rem;
-  background-image: linear-gradient(to right, #c09244 0%, #d1ae57 51%, #D1ae57 100%)}
-.loading{
+  background-image: linear-gradient(
+    to right,
+    #c09244 0%,
+    #d1ae57 51%,
+    #d1ae57 100%
+  );
+}
+.loading {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,13 +28,21 @@
 
 /* Safari */
 @-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 .about-contact-us {
   margin-right: 4px;
@@ -95,7 +109,7 @@ h1.about-title {
   padding-top: 20px;
 }
 
-.about-image{
+.about-image {
   width: 100%;
 }
 .about-grid {
@@ -103,7 +117,7 @@ h1.about-title {
   grid-template-columns: 3fr 2fr;
   grid-gap: 2em;
 }
-.contact-title{
+.contact-title {
   color: black;
   cursor: pointer;
 }
@@ -125,7 +139,7 @@ button.btn-primary.btn-outline-primary.btn.Ripple-parent.see-more {
   color: red;
 }
 
-.select-customize{
+.select-customize {
   border: none;
   border-bottom: 1px solid #ced4da;
 }
@@ -136,11 +150,11 @@ button.btn-primary.btn-outline-primary.btn.Ripple-parent.see-more {
   padding-top: 32px;
 }
 
-.icon-forms{
-  font-size: 1.75rem
+.icon-forms {
+  font-size: 1.75rem;
 }
 
-.form-select{
+.form-select {
   display: flex;
 }
 
@@ -155,7 +169,7 @@ button.btn-primary.btn-outline-primary.btn.Ripple-parent.see-more {
   font-weight: 700;
 }
 
-img.gridImg{
+img.gridImg {
   width: 100%; /* or max-width: 100%; */
   height: auto;
 }
@@ -262,6 +276,10 @@ a.ftIcon {
   color: black;
 }
 
+.container.promos {
+  padding: 2em;
+}
+
 @media (min-width: 900px) {
   nav {
     max-height: 60px;
@@ -331,7 +349,7 @@ a.ftIcon {
 }
 
 @media (max-width: 500px) {
-  .loader{
+  .loader {
     margin-top: 150px;
   }
   nav.navbar-dark.indigo.navbar.navbar-expand-md {

@@ -1,52 +1,61 @@
 import React, { Component } from "react";
 import {
-MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBFormInline,
-MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
+  MDBNavbar,
+  MDBNavbarBrand,
+  MDBNavbarNav,
+  MDBNavItem,
+  MDBNavLink,
+  MDBNavbarToggler,
+  MDBCollapse,
+  MDBFormInline,
+  MDBDropdown,
+  MDBDropdownToggle,
+  MDBDropdownMenu,
+  MDBDropdownItem,
 } from "mdbreact";
-import { BrowserRouter as Router } from 'react-router-dom';
-import { Link } from 'react-router-dom';
+import { BrowserRouter as Router } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class NavbarPage extends Component {
-state = {
-  isOpen: false
-};
+  state = {
+    isOpen: false,
+  };
 
-toggleCollapse = () => {
-  this.setState({ isOpen: !this.state.isOpen });
-}
+  toggleCollapse = () => {
+    this.setState({ isOpen: !this.state.isOpen });
+  };
 
-render() {
-  return (
-   
-      <MDBNavbar color="indigo" dark expand="md">
+  render() {
+    return (
+      <MDBNavbar color='indigo' dark expand='md'>
         <MDBNavbarBrand>
-          <MDBNavLink to="/">
-            <img src='/img/logo.png' alt='logo' className='logo'/>
+          <MDBNavLink to='/'>
+            <img src='/img/logo.png' alt='logo' className='logo' />
           </MDBNavLink>
         </MDBNavbarBrand>
         <MDBNavbarToggler onClick={this.toggleCollapse} />
-        <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
+        <MDBCollapse id='navbarCollapse3' isOpen={this.state.isOpen} navbar>
           <MDBNavbarNav right>
             <MDBNavItem active>
-              <MDBNavLink to="/">Home</MDBNavLink>
+              <MDBNavLink to='/'>Home</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="/about">About US</MDBNavLink>
+              <MDBNavLink to='/about'>About US</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="/WeddingPhotos">Photos</MDBNavLink>
+              <MDBNavLink to='/WeddingPhotos'>Photos</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
               <MDBDropdown>
                 <MDBDropdownToggle nav caret>
-                  <span className="mr-2">Videos</span>
+                  <span className='mr-2'>Videos</span>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
-                  <MDBNavLink to="/WeddingVideos" className='navAdjust'>
-                    <MDBDropdownItem >Wedding Videos</MDBDropdownItem>
+                  <MDBNavLink to='/WeddingVideos' className='navAdjust'>
+                    <MDBDropdownItem>Wedding Videos</MDBDropdownItem>
                   </MDBNavLink>
-                  <MDBNavLink to="/NonweddingVideos" className='navAdjust'>
-                    <MDBDropdownItem >Non Wedding Videos</MDBDropdownItem>
+                  <MDBNavLink to='/NonweddingVideos' className='navAdjust'>
+                    <MDBDropdownItem>Non Wedding Videos</MDBDropdownItem>
                   </MDBNavLink>
                 </MDBDropdownMenu>
               </MDBDropdown>
@@ -67,16 +76,17 @@ render() {
               </MDBDropdown>
             </MDBNavItem> */}
             <MDBNavItem>
-              <MDBNavLink to="/Client" target="_blank">Client Gallery</MDBNavLink>
+              <MDBNavLink to='/Client' target='_blank'>
+                Client Gallery
+              </MDBNavLink>
             </MDBNavItem>
-   
+
             <MDBNavItem>
-              <MDBNavLink to="/ContactUs">Contact US</MDBNavLink>
+              <MDBNavLink to='/ContactUs'>Contact US</MDBNavLink>
             </MDBNavItem>
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBNavbar>
-    
     );
   }
 }

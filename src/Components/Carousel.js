@@ -1,19 +1,24 @@
 import React from "react";
-import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView, MDBContainer } from
-"mdbreact";
+import {
+  MDBCarousel,
+  MDBCarouselInner,
+  MDBCarouselItem,
+  MDBView,
+  MDBContainer,
+} from "mdbreact";
 
 const CarouselPage = () => {
   return (
-     <MDBContainer>
+    <MDBContainer>
       <MDBCarousel
         activeItem={1}
         length={6}
         showControls={true}
         showIndicators={true}
-        className="z-depth-1"
+        className='z-depth-1'
       >
         <MDBCarouselInner>
-          <MDBCarouselItem itemId="1">
+          <MDBCarouselItem itemId='1'>
             <MDBView className='muse1'>
               {/* <img
                 className="d-block w-100"
@@ -22,7 +27,7 @@ const CarouselPage = () => {
               /> */}
             </MDBView>
           </MDBCarouselItem>
-          <MDBCarouselItem itemId="2">
+          <MDBCarouselItem itemId='2'>
             <MDBView className='loladeCrew'>
               {/* <img
                 className="d-block w-100"
@@ -31,7 +36,7 @@ const CarouselPage = () => {
               /> */}
             </MDBView>
           </MDBCarouselItem>
-          <MDBCarouselItem itemId="3" className='muse2'>
+          <MDBCarouselItem itemId='3' className='muse2'>
             <MDBView>
               {/* <img
                 className="d-block w-100"
@@ -40,7 +45,7 @@ const CarouselPage = () => {
               /> */}
             </MDBView>
           </MDBCarouselItem>
-          <MDBCarouselItem itemId="4">
+          <MDBCarouselItem itemId='4'>
             <MDBView className='chichiCrew'>
               {/* <img
                 className="d-block w-100"
@@ -49,7 +54,7 @@ const CarouselPage = () => {
               /> */}
             </MDBView>
           </MDBCarouselItem>
-          <MDBCarouselItem itemId="5" >
+          <MDBCarouselItem itemId='5'>
             <MDBView className='me'>
               {/* <img
                 className="d-block w-100"
@@ -58,7 +63,7 @@ const CarouselPage = () => {
               /> */}
             </MDBView>
           </MDBCarouselItem>
-          <MDBCarouselItem itemId="6">
+          <MDBCarouselItem itemId='6'>
             <MDBView className='muse2b'>
               {/* <img
                 className="d-block w-100"
@@ -71,6 +76,6 @@ const CarouselPage = () => {
       </MDBCarousel>
     </MDBContainer>
   );
-}
+};
 
 export default CarouselPage;
