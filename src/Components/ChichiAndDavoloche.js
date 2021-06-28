@@ -8,8 +8,7 @@ import ButtonMore from "./Button";
 
 function LoladeAndLanre() {
   const [currentImage, setCurrentImage] = useState(0);
-  const [viewerIsOpen, setViewerIsOpen] = useState(false);
-
+  const [viewerIsOpen, setViewerIsOpen] = useState(false)
   const openLightbox = useCallback((event, { ChichiPhotos, index }) => {
     setCurrentImage(index);
     setViewerIsOpen(true);

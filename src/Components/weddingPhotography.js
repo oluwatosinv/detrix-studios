@@ -6,8 +6,6 @@ import { MDBContainer } from "mdbreact";
 const weddingPhotography = () => {
   return (
     <div>
-      <CarouselPage />
-      <WeddingVideos />
       <MDBContainer className='promos'>
         <p className='promo'>
           Hey Welcome,
@@ -19,6 +17,8 @@ const weddingPhotography = () => {
         <h3 className='text-center'>Enjoy up to 40% if you book now!!!!</h3>
       </MDBContainer>
       <FormPage1 />
+      <CarouselPage />
+      <WeddingVideos />
     </div>
   );
 };
