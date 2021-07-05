@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Loader from "./Components/Loader";
 import Nav from "./Components/Nav";
+import Helmet from "react-helmet";
 
 const HomePage = lazy(() => import("./Components/HomePage"));
 const About = lazy(() => import("./Components/About"));
@@ -27,6 +28,72 @@ const Muse = lazy(() => import("./Components/Muse"));
 function App() {
   return (
     <div>
+      <Helmet>
+
+        {/* <!-- HTML Meta Tags --> */}
+        <title>Detrix Studios Best nigerian videographers and photographers</title>
+        <meta 
+          name="description" 
+          content="we are a young and vibrant team of professional Photographers and Cinematographers in Lagos, Nigeria with specialty in documenting weddings, events , portrait and documentary."
+        />
+
+        {/* <!-- Google / Search Engine Tags --> */}
+        <meta
+          itemprop="name"
+          content="Detrix Studios Best nigerian videographers and photographers"
+        />
+        <meta 
+          itemprop="description" 
+          content="we are a young and vibrant team of professional Photographers and Cinematographers in Lagos, Nigeria with a specialty in documenting weddings, events, portraits and documentaries."
+        />
+        <meta 
+          itemprop="image" 
+          content="https://res.cloudinary.com/tosin/image/upload/v1625480950/detrix/screencapture-detrixstudios-2021-07-05-11_20_53.png"
+        />
+
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta 
+          property="og:url" 
+          content="https://www.detrixstudios.com"
+        />
+        <meta 
+          property="og:type" 
+          content="website"
+        />
+        <meta 
+          property="og:title" 
+          content="Detrix Studios Best nigerian videographers and photographers"
+        />
+        <meta 
+          property="og:description" 
+          content="we are a young and vibrant team of professional Photographers and Cinematographers in Lagos, Nigeria with a specialty in documenting weddings, events, portraits and documentaries."
+        />
+        <meta 
+          property="og:image" 
+          content="https://res.cloudinary.com/tosin/image/upload/v1625480950/detrix/screencapture-detrixstudios-2021-07-05-11_20_53.png"
+        />
+
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta 
+          name="twitter:card" 
+          content="summary_large_image"
+        />
+        <meta 
+          name="twitter:title"
+          content="Detrix Studios Best nigerian videographers and photographers"
+        />
+        <meta
+          name="twitter:description" 
+          content="we are a young and vibrant team of professional Photographers and Cinematographers in Lagos, Nigeria with a specialty in documenting weddings, events, portraits and documentaries."
+        />
+        <meta 
+          name="twitter:image" 
+          content="https://res.cloudinary.com/tosin/image/upload/v1625480950/detrix/screencapture-detrixstudios-2021-07-05-11_20_53.png"
+        />
+
+        {/* <!-- Meta Tags Generated via http://heymeta.com --> */}
+
+      </Helmet>
       <Router>
         <Suspense fallback={<Loader />}>
           <Nav />

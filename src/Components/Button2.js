@@ -6,9 +6,9 @@ const Button2 = () => {
       <Link to='/ContactUs'>
         <button
           type='button'
-          class='btn gradient-button-1'
+          className='btn gradient-button-1'
           data-mdb-toggle='button'
-          autocomplete='off'
+          autoComplete='off'
         >
           Contact Us
         </button>

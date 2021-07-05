@@ -16,9 +16,7 @@ const About = () => {
             STUDIOS.
           </h2>
           <p>
-            At Detrix Studios, we are a young and vibrant team of professional
-            Photographers and Cinematographers with specialty in documenting
-            weddings, events , portrait and documentary.
+          At Detrix Studios, we are a young and vibrant team of professional Photographers and Cinematographers with a specialty in documenting weddings, events, portraits, and documentaries.
           </p>
 
           <p>
